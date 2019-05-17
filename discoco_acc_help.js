@@ -1,3 +1,3 @@
-//$(document).ready(function () {
-	console.log("ok");
-//});
+function testf(){
+	console.log('OK');
+}
