@@ -1,4 +1,4 @@
-var ds=getUrlVars()["ds"];
+var ds=getUrlVars()["ds"];//
 var sds;
 switch(ds){
 case 'ds_shanhua_mp' :
