@@ -2,10 +2,10 @@ var ds=getUrlVars()["ds"];//
 var sds;
 switch(ds){
 case 'ds_all_mp' :
-	sds = '1';
+	sds = '001';
 	break;
 case 'ds_shanhua_mp' :
-	sds = '2';
+	sds = '002';
 	break;
 }
 
