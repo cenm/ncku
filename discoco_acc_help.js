@@ -1,11 +1,14 @@
 var ds=getUrlVars()["ds"];//
 var sds;
+var endurl;
 switch(ds){
 case 'ds_all_mp' :
 	sds = '001';
+	endurl = 'http://discoco.tw/discoco/o_act.action?a_rnd=j83ldBcHD_mIjXc3IDicr2nwl1UIqULa6vrdc5DiANplR3iQPKneqa41aa0o';
 	break;
 case 'ds_shanhua_mp' :
 	sds = '002';
+	endurl = 'http://discoco.tw/discoco/o_act.action?a_rnd=vOgwrzqX9EI6w05_2QYjAkcXWrNjSAyMJz5Ot4VLeEST0KvgEEEZlzRksaMu';
 	break;
 }
 
