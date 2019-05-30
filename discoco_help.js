@@ -39,7 +39,7 @@ $(document).ready(function () {
 			+'<div style="margin:15px 0px;border-top:1px #888888 solid"></div>'
 			+'<input style="margin: 15px 10px 5px 10px;cursor: pointer" type="button" value="普通版(列印)"  onclick="print_detail(\'01\')"/>'
 			+'<div id="qr01">'
-			+'<div class="qr02_css1" style="height:0;padding:0 0 141% 0;">'
+			+'<div class="qr02_css1" style="height:0;padding:0 0 141% 0;;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-size: cover;">'
 			+'<div class="qr_img" width="80%" style="padding: 20% 15% 10% 15%;"></div>'
 			+'<div style="bottom:0;text-align:center;color:#FFFFFF;font-size:50px">DISCOCO</div>'
 			+'</div>'
