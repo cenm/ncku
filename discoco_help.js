@@ -19,7 +19,7 @@ $(document).ready(function () {
 				
 			+'<div style="margin:15px 0px;border-top:1px #888888 solid"></div>'
 			+'<input style="margin: 15px 10px 5px 10px;cursor: pointer" type="button" value="善化年中享樂購(列印)"  onclick="print_detail(\'002\')"/>'
-			+'<div>請使用Chrome瀏覽器，適合A4或A5列印</div>'
+			+'<div>請使用Chrome瀏覽器列印，並確認有開啟「背景圖形」(適合A4或A5直式)</div>'
 			+'<div id="qr002">'
 			+'<div class="qr02_css1" style="height:0;padding:0 0 141% 0;background:#ba3939 url(\'https://i.imgur.com/pYilDhg.jpg\') 0 0 no-repeat;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-size: cover;">'
 			+'<div class="qr_img" width="80%" style="padding: 18.5% 30% 10% 30%;"></div>'
@@ -28,7 +28,7 @@ $(document).ready(function () {
 			+'</div>'
 			+'<div style="margin:15px 0px;border-top:1px #888888 solid"></div>'
 			+'<input style="margin: 15px 10px 5px 10px;cursor: pointer" type="button" value="臺南購便利(列印)"  onclick="print_detail(\'001\')"/>'
-			+'<div>請使用Chrome瀏覽器，適合A4或A5列印</div>'
+			+'<div>請使用Chrome瀏覽器列印，並確認有開啟「背景圖形」(適合A4或A5直式)</div>'
 			+'<div id="qr001">'
 			+'<div class="qr02_css1" style="height:0;padding:0 0 141% 0;background:#ba3939 url(\'https://i.imgur.com/dBjB1fT.jpg\') 0 0 no-repeat;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-size: cover;">'
 			+'<div class="qr_img" width="80%" style="padding: 47% 35% 10% 35%;"></div>'
@@ -38,6 +38,7 @@ $(document).ready(function () {
 				
 			+'<div style="margin:15px 0px;border-top:1px #888888 solid"></div>'
 			+'<input style="margin: 15px 10px 5px 10px;cursor: pointer" type="button" value="普通版(列印)"  onclick="print_detail(\'01\')"/>'
+			+'<div>請使用Chrome瀏覽器列印，並確認有開啟「背景圖形」(適合A4或A5直式)</div>'
 			+'<div id="qr01">'
 			+'<div class="qr02_css1" style="height:0;padding:0 0 141% 0;;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-size: cover;">'
 			+'<div class="qr_img" width="80%" style="padding: 20% 15% 10% 15%;"></div>'
