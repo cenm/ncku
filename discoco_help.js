@@ -2,7 +2,7 @@ $(document).ready(function () {
 	var pgnme = window.location.pathname.split('.jsp')[0].split('?')[0].split('/').pop();
 	pgnme = pgnme.replace(/\./g,'').replace('page','').replace('action','');//this is for oliver style
 	if(pgnme=='qrcode'){//this is for qrcode style
-		$("#act-section").html(
+		/*$("#act-section").html(
 			'<div style="max-width:100%;min-height:80vh;width:1000px;padding:70px 20px 5px 20px;box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;" align="center">'
 			+'<div class="title_txt">'
 			+'<a>Discoco-優惠立即抽</a>'
@@ -53,7 +53,7 @@ $(document).ready(function () {
 		shpnme_resize();
 		$( window ).resize(function() {
 			shpnme_resize();
-		});
+		});*/
 	}
 
 });
