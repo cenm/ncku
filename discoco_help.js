@@ -24,7 +24,7 @@ $(document).ready(function () {
 		shpnme_resize();
 		$( window ).resize(function() {
 			shpnme_resize();
-		});*/
+		});
 	}
 
 });
