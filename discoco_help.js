@@ -20,8 +20,13 @@ $(document).ready(function () {
 			+'</div>'
 		);
 		
-		$(".shpnme").html(shpnme);
-		shpnme_resize();
+		setTimeout(function(){
+			if(shpnme){
+				$(".shpnme").html(shpnme);
+			}
+			shpnme_resize(); 
+		}, 500);
+		
 		$( window ).resize(function() {
 			shpnme_resize();
 		});
