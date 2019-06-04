@@ -3,7 +3,7 @@ $(document).ready(function () {
 	pgnme = pgnme.replace(/\./g,'').replace('page','').replace('action','');//this is for oliver style
 	if(pgnme=='qrcode'){//this is for qrcode style
 		$("#o_qrcode").html(
-			'<div id="mark" style="font-size:1.2em;color:#EE0000;margin:15px 0px">(於2019年6月30日前加入的新店家， 將預設加入「臺南購便利行動支付」活動，請於隔日中午開通後再行登入列印活動專屬QRCODE)</div>'
+			'<div id="mark" style="font-size:1.2em;color:#EE0000;margin:15px 0px">於2019年6月30日前加入的新店家， 將預設加入「臺南購便利行動支付」活動，請於隔日中午開通後再行登入列印活動專屬QRCODE<br>(若欲加入或退出官方活動，可聯繫 ckhp2018@gmail.com)</div>'
 			+'<div style="margin:15px 0px;border-top:1px #888888 solid"></div>'
 			+'<input style="margin: 15px 10px 5px 10px;cursor: pointer" type="button" value="乾淨版(列印)"  onclick="print_detail(\'00\')"/>'
 			+'<div id="qr00">'
