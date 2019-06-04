@@ -20,12 +20,13 @@ $(document).ready(function () {
 			//+'</div>'
 			//+'</div>'
 		);
-		if($("#a_qrcode").html()!=''){$("#mark").hide();}
+		
 		setTimeout(function(){
 			if(shpnme){
 				$(".shpnme").html(shpnme);
 			}
-			shpnme_resize(); 
+			shpnme_resize();
+			if($("#a_qrcode").html()!=''){$("#mark").hide();}
 		}, 500);
 		
 		$( window ).resize(function() {
