@@ -23,7 +23,6 @@ $(document).ready(function () {
 			$("#discoco_text").html('<div style="text-align: center;padding-top: 15px;padding-bottom: 10px;line-height:1.5em">歡迎參加「臺南購便利，行動支付So Easy」抽獎活動，請利用GOOGLE帳號登入，並填寫聯絡資料，即可擁有抽獎資格</div>');
 			$("#googleform").html('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRVhGlFuAcOjQ1fuRqMsLhj6Q2N_y7C1nCBOc_2BvyYSiRxg/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0" style="max-width: 100%;">載入中…</iframe>');
 			$("#pls1").html('<a href="https://docs.google.com/forms/d/e/1FAIpQLSeRVhGlFuAcOjQ1fuRqMsLhj6Q2N_y7C1nCBOc_2BvyYSiRxg/viewform?usp=sf_link">遇到註冊障礙?</a>');
-			
 			$("#submit").val('我要中大獎');
 			break;
 		case 'ds_shanhua_mp' :
