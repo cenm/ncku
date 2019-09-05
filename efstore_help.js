@@ -29,15 +29,22 @@ function addr_add(){
 	});
 }
 function open_map_addr(snme_tp){
+	h = 1;
 	switch (snme_tp) { 
-		case '觀芯園企業社~芯園': 
+		case '觀芯園企業社~芯園':
 			saddr = '台南市麻豆區安西里安業223號';
 			break;
 		case '饌前實業股份有限公司~禾記嫩骨飯': 
 			saddr = '台南市中西區南門路60號';
 			break;
 		default:
-			alert('查無地址');
+			h = 0;
+			saddr = snme_tp;
 	}
-	window.open("https://www.google.com/maps/place/"+saddr,"_blank").focus();
+	if(h==1){
+		window.open("https://www.google.com/maps/place/"+saddr,"_blank").focus();
+	}else{
+		window.open("https://www.google.com/maps/search/"+saddr,"_blank").focus();
+	}
+	
 }
