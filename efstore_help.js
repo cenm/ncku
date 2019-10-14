@@ -6,6 +6,9 @@ $(document).ready(function () {
 	setTimeout(function(){
 		$('#e_page').html("<div class=\"ic-title\"><a i18n='e_page'>EF stores</a></div><div class=\"btnBank-coBtn\"></div>");
 	},1000);
+	setTimeout(function(){
+		$('#e_page').html("<div class=\"ic-title\"><a i18n='e_page'>EF stores</a></div><div class=\"btnBank-coBtn\"></div>");
+	},3000);
 	
 	if(pagename=="dialogue"){
 		setTimeout(function(){
@@ -32,7 +35,7 @@ function addr_add(){
 	});
 }
 function open_map_addr(snme_tp){
-	h = 1;
+	h = 0;
 	switch (snme_tp) { 
 		case '觀芯園企業社~芯園':
 			saddr = '台南市麻豆區安西里安業223號';
