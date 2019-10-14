@@ -38,10 +38,10 @@ function open_map_addr(snme_tp){
 	h = 0;
 	switch (snme_tp) { 
 		case '觀芯園企業社~芯園':
-			saddr = '台南市麻豆區安西里安業223號';
+			saddr = snme_tp;
 			break;
 		case '饌前實業股份有限公司~禾記嫩骨飯': 
-			saddr = '台南市中西區南門路60號';
+			saddr = snme_tp;
 			break;
 		default:
 			h = 0;
