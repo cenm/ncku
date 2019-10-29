@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 });
 function shpnme_resize(){
-	w = $("#qr003").width()/270;
+	w = $("#qr003").width()/370;
 	$( "#qr003 .shpnme" ).css({'-moz-transform':'scale('+w+')','-webkit-transform':'scale('+w+')','-o-transform':'scale('+w+')','-ms-transform':'scale('+w+')','transform':'scale('+w+')'});
 	w = $("#qr002").width()/270;
 	$( "#qr002 .shpnme" ).css({'-moz-transform':'scale('+w+')','-webkit-transform':'scale('+w+')','-o-transform':'scale('+w+')','-ms-transform':'scale('+w+')','transform':'scale('+w+')'});
